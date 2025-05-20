@@ -52,8 +52,6 @@ Data is filtered to include records from **2012 onwards**.
 
 - `streamlit run app.py
 
-📸 Preview
-
 💡 Insights
 
 - `Public health research
