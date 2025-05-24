@@ -187,6 +187,7 @@ if st.session_state.show_eda:
     st.write(df_obesity.describe())
     
     st.write("Missing Values in Malnutrition Dataset:")
+    df_malnutrition = df_malnutrition.fillna("Unknown")
     st.write(df_malnutrition.isnull().sum())
     
     st.write("Duplicate Rows in Malnutrition Dataset:")
