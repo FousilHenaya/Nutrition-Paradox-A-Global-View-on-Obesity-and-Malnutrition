@@ -190,7 +190,7 @@ if st.session_state.show_eda:
     df_obesity = df_obesity.fillna("Unknown")
     st.write(df_obesity.isnull().sum()) 
     
-    st.write("Duplicate Rows in obesityn Dataset:")
+    st.write("Duplicate Rows in obesity Dataset:")
     st.write(df_obesity.duplicated().sum())
     
     
